@@ -1,0 +1,236 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Belanosima:wght@400;600&family=Fira+Sans:ital,wght@0,400;1,300&family=Kanit:ital,wght@0,100;0,300;1,500&family=PT+Serif&family=Playfair+Display:ital@0;1&family=Ysabeau+Infant:wght@100;300&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  .container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* background-image: C:\luminar\resume\images\hehe; */
+    /* background-size: cover; */
+
+  
+  
+
+}
+
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(16, 1, 51);
+    width: 100%;
+   
+}  
+
+.pic{
+
+    width: 310px;
+}
+
+nav ul li{
+
+    display: inline-block;
+    list-style: none;
+    margin: 10px 90px;
+    margin-left: 100px;
+    margin-right: 400px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(75, 56, 122);
+    font-weight: bold;
+}
+
+.pic2{
+    width: 270px;
+ 
+}
+/* .back{
+
+    width: fit-content;
+    height: 400px;
+    margin-left: 450px;
+} */
+.title{
+    margin-left: 500px;
+    margin-top: 10%;
+    background: url('./images/555');
+}
+
+.title a{
+    background-color: rgb(10, 5, 5);
+    padding: 7px 15px;
+    text-decoration: none;
+    color: rgb(28, 84, 130);
+    font-weight: bold;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 3px;
+    line-height: 22px;
+}
+
+.title p{
+
+    color: rgb(106, 9, 9);
+    line-height: 50px;
+}
+
+.title h1{
+    line-height: 33px;
+    font-size: 30px;
+    color: rgb(9, 8, 10);margin-bottom: 15px;
+}
+
+.about-content{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 16px;
+    margin-top: 40px;
+}
+#about{
+
+    margin-right: 8%;
+    margin-top: 13%;
+    margin-left: 8%;
+    align-items: center;
+    
+
+}
+.heading{
+    text-align: center;
+    line-height: 30px; 
+}
+.pic3{
+   margin-left: 400px;
+   width: 300px;
+   height: 300px;
+}
+.about-text{
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: justify;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+ 
+
+ }
+
+ .info-box{
+
+    display: flex;
+    align-items: center; 
+    margin-top: 16px;
+    font-size: bold;
+}
+
+.information{
+    margin: 16px 0 20px;
+    margin-left: 500px;
+}
+
+/* .information .info-box span{
+    font-weight: 400px;
+    margin-left: 12px;
+    color: black;
+
+} */
+
+.information .info-box span{
+    font-weight: 400px;
+    
+
+}
+
+.icon-div{
+    margin-top: 5%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+
+
+}
+
+
+
+#contact{
+    margin-left: 8%;
+    margin-top: 13%;
+    margin-right: 8%;
+   
+
+}
+
+#About{
+    margin-left: 8%;
+    margin-top: 13%;
+    margin-right: 8%;
+}
+
+.quali{
+    margin-left: 00px;
+}
+
+.icon-div :hover{
+    background-color: rgb(235, 242, 240);
+
+}
+
+.icon :hover{
+    background-color: rgb(21, 143, 58);
+
+}
+
+.pic4{
+   width: 200px;
+}
+
+#About{
+    background: url('https://www.pngitem.com/pimgs/m/238-2384390_background-design-for-portfolio-png-transparent-png.png');
+
+    background-size: cover;
+    border-radius: 10px;
+    padding: 35px;
+
+}
+#contact{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmx2iWYrWwVDuLacGzdPI4J4mB7uHzGRSYIA&usqp=CAU');
+    background-size: cover;
+    border-radius: 10px;
+    padding: 25px;
+    width: 300px;
+    margin-left: 400px;
+
+}
+
+.title{
+    background: url('https://img.freepik.com/free-photo/copy-space-yellow-blue-cupboards_23-2148518390.jpg');
+    border-radius: 10px;
+    width: 600px;
+    margin-left: 350px;
+    padding: 25px;
+   
+}
+
